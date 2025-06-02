@@ -4,7 +4,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "HAIKO~MDX~XMoh0CzY#jUcw5opD_t43is8NMv4G6n2npTufBBQD4UN0N5FWgv0",
   PREFIX: process.env.PREFIX || '+',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
@@ -25,7 +25,7 @@ const config = {
   BOT_NAME: process.env.BOT_NAME || "𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟏",
   MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/wio44d.jpg",
   DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO HAIKO-MDX-V1",
-  OWNER_NAME: process.env.OWNER_NAME || "𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗",
+  OWNER_NAME: process.env.OWNER_NAME || "𝐌𝐌𝐄 𝐏𝐑𝐎𝐅🥰",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "529633982655",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
